@@ -1,0 +1,125 @@
+/* Overall page styling */
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-left: 70%;
+}
+
+.detect {
+    color: #ffffff;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    /* background-color: #3b4149;
+    border: 5px solid #0d99ff; */
+}
+
+/* Detected Image Block */
+.detected-container {
+    flex: 2;
+    padding: 20px;
+    /* background-color: #3b4149;   */
+    background-color: rgba(59, 65, 73, 1);
+    border: 5px solid #0d99ff;
+}
+
+/* Cropped Image Block */
+.cropped-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;  /* สีพื้นหลังบล็อกขวา */
+    border: 2px solid #000;
+}
+
+.image-box {
+    border: 2px solid #000;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    background-color: #e0e0e0;
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cropped-container img {
+    border: 2px solid #00bfff;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.cropped-image-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.prediction-text {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* File input and buttons */
+#file-input {
+    display: none;
+}
+
+.file-label {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+#file-chosen {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-left: 85%;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* h1 {
+
+    margin-left: 70%;
+} */
